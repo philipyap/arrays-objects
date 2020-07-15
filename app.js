@@ -56,3 +56,47 @@ for (var i = 0; i < fruits.length; i++) {
     var eachFruits = fruits[i];
     console.log(eachFruits);
 }
+
+const cars = ['Tesla', 'Honda', 'Toyota'];
+console.log(cars);
+
+for (let i = 0; i < cars.length; i++){
+    let eachCar = cars[i];
+    console.log(eachCar);
+}
+
+//objects use key: value pairs
+
+const philip = {
+    fullName: 'Philip Yap', // key = value;
+    age: 18, //key: value
+    myLocation: 'San Francisco Bay Area', // key = value
+    placeTraveled: ['Kentucky', 'Ohio', 'New York']
+}
+console.log(philip);
+console.log(philip.myLocation); // print philip's location
+console.log(philip.placeTraveled[2]); //print New York 
+
+const myReallyCoolPost = {
+    username: '@generalassembly',
+    likes: 1200,
+    comments: ['realy cool', ' nice post', 'woah'],
+    caption: 'Day 3 of SEI',
+    pics: 'https://instagram.com/generalassembly/..',
+    shares: 12
+
+} // IG : likes, captions, shares, comments, username, pics
+console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = 'San Francisco'
+console.log(myReallyCoolPost); //change myLocation
+
+const myReallyCoolPostOne = {
+    username: '@feilipyap',
+    likes: 10000,
+    comments: ['realy cool', ' nice post', 'woah'],
+    caption: 'So cute',
+    pics: 'https://instagram.com/feilipyap/..',
+    shares: 1000
+}
+console.log(myReallyCoolPostOne);
