@@ -49,3 +49,10 @@ for (var i = 0; i < teams.length; i++) // teams arrays
     var eachTeam = teams[i]; //second way // print Rockets, Lakers ... 
     console.log(eachTeam);
 }
+
+var fruits = ['bananas', 'apples', 'oranges', 'grapes', 'strawberries']
+
+for (var i = 0; i < fruits.length; i++) {
+    var eachFruits = fruits[i];
+    console.log(eachFruits);
+}
